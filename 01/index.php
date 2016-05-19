@@ -5,7 +5,7 @@
 	<title>lesson 2</title>
 </head>
 <body>
-<?php
+<?
 	$a = 2;
 	$A = null;
 
