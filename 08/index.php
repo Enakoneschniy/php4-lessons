@@ -1,4 +1,8 @@
 <?
+	echo "<pre>";
+	print_r($_COOKIE);
+	echo "</pre>";
+
 	$str = 'Hello23 World';
 	$pattern = '/^[a-z0-9 ]+$/i';
 	$matches = [ ];

@@ -1,6 +1,8 @@
 <?php
 ini_set('display_errors', 'on');
-
+	echo "<pre>";
+	print_r($_COOKIE);
+	echo "</pre>";
 
 	function foo(){
 		return 4;
