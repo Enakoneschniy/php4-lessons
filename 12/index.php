@@ -35,6 +35,11 @@
 			$this->height = $h;
 			$this->width = $w;
 			$this->element = $e;
+
+			$handler = fopen('dddd','a');
+			fclose($handler);
+
+			fread($handler, filesize('dddd'));
 		}
 
 		public function __invoke(){
